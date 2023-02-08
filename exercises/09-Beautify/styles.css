@@ -1,7 +1,6 @@
 #div1 {
 	background-color: red;
 	width: 150px;
-	float: left;
 	height: 100px;
 	padding: 100px;
 	text-align: center;
@@ -11,19 +10,25 @@
 	background-color: blue;
 	height: 100px;
 	width: 150px;
-	padding: 25px;
+	padding: 100px;
 	color: white;
 	text-align: center;
 	overflow: hidden;
 	border-radius: 25px;
 }
-#div3 {
-	background-color: yellow;
+
+#div2 {
+	background-color: blue;
 	height: 100px;
 	width: 150px;
-	padding: 25px;
+	padding: 100px;
 	color: white;
 	text-align: center;
 	overflow: hidden;
 	border-radius: 25px;
+}
+
+#div3 {
+	display: inline-flex;
+	flex-direction: column;
 }

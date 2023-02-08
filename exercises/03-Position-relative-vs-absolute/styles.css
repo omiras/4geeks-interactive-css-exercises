@@ -2,14 +2,18 @@ body {
 	background: blue;
 }
 #firstDiv {
-	background: blue;
+	background: rgb(255, 0, 85);
 	width: 100px;
 	height: 100px;
+	position: relative;
+	margin-left: 1rem;
 }
 #secondDiv {
 	background: yellow;
-	width: 100px;
-	height: 100px;
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top: 10px;
 }
 .absolutePositionExample {
 	position: absolute;

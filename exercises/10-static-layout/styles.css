@@ -17,7 +17,15 @@ body {
 	color: #fff;
 	font-family: Helvetica;
 	text-align: center;
-	margin: 0;
+}
+
+.wrapper {
+	margin: 10px;
+}
+
+.secondWrapper {
+	display: flex;
+	gap: 10px;
 }
 
 header,
@@ -35,4 +43,12 @@ header {
 nav,
 section {
 	padding: 100px 0;
+}
+
+nav {
+	width: 33%;
+}
+
+section {
+	width: 99%;
 }
